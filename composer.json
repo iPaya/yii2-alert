@@ -1,0 +1,35 @@
+{
+    "name": "ipaya/yii2-alert",
+    "description": "The Bootstrap alert extension for Yii2. See http://getbootstrap.com/components/#alerts",
+    "homepage": "https://github.com/iPaya/yii2-alert",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension"
+    ],
+    "authors": [
+        {
+            "name": "Di Zhang",
+            "email": "zhangdi_me@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">4.8.20 <6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "iPaya\\alert\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
